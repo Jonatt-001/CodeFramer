@@ -5,17 +5,17 @@ import BlogCard, { BlogCardProps } from '@/components/ui/BlogCard';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "CodeFramer Blog | Developer Tips, Updates & Tutorials",
-  description: "Stay updated with the latest developer tutorials, platform updates, and coding insights from the team behind CodeFramer - your go-to online IDE and compiler for modern web development.",
-  keywords: "CodeFramer blog, developer tutorials, coding tips, online IDE updates, web development, compiler platform, programming insights, CodeFramer news",
+  title: "Kaali Coder Blog | Developer Tips, Updates & Tutorials",
+  description: "Stay updated with the latest developer tutorials, platform updates, and coding insights from the team behind Kaali Coder - your go-to online IDE and compiler for modern web development.",
+  keywords: "Kaali Coder blog, developer tutorials, coding tips, online IDE updates, web development, compiler platform, programming insights, Kaali Coder news",
   openGraph: {
-    title: "CodeFramer Blog | Developer Tips, Updates & Tutorials",
-    description: "Stay updated with the latest developer tutorials, platform updates, and coding insights from the team behind CodeFramer - your go-to online IDE and compiler for modern web development.",
+    title: "Kaali Coder Blog | Developer Tips, Updates & Tutorials",
+    description: "Stay updated with the latest developer tutorials, platform updates, and coding insights from the team behind Kaali Coder - your go-to online IDE and compiler for modern web development.",
     url: process.env.BASE_URL + "/blogs",
-    siteName: "CodeFramer",
+    siteName: "Kaali Coder",
     images: [
       {
-        url: "/codeframer.webp",
+        url: "/kaali-coder.webp",
         width: 800,
         height: 600,
       },
@@ -37,7 +37,11 @@ const Blogs = async () => {
     <div className='flex flex-col items-center'>
       <section className='my-28 space-y-10 w-fit px-5'>
         <div className='w-full'>
-          {data.length > 0 ? <h1 className='text-3xl font-bold'>CodeFramer Dev Blog</h1> : <h1 className='text-center py-4 text-3xl font-light'>No blog found.</h1>}
+          {data.length > 0 ? (
+            <h1 className='text-3xl font-bold'>Kaali Coder Dev Blog</h1>
+          ) : (
+            <h1 className='text-center py-4 text-3xl font-light'>No blog found.</h1>
+          )}
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
           {data?.map((blog: BlogCardProps) => (
