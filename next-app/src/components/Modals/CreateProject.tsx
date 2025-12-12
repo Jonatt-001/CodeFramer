@@ -47,11 +47,11 @@ const CreateProject: React.FC<CreateProjectProps> = ({ isOpen, setIsOpen }) => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
 
+  // ✔ FIXED VALIDATION: 5–20 chars, matching your error message
   useEffect(() => {
-    if (name && name.length < 5 || name.length > 30) {
+    if (!name || name.length < 5 || name.length > 20) {
       setValidated(false);
-    } else
-      setValidated(true);
+    } else setValidated(true);
   }, [name]);
 
   const dataHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
