@@ -2,9 +2,9 @@ import Footer from "@/components/Footer/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Privacy Policy - CodeFramer",
-    description: "Learn about how CodeFramer collects, uses, and protects your personal information. View our comprehensive Privacy Policy for details.",
-    keywords: ["privacy policy", "data protection", "user information", "CodeFramer"],
+    title: "Privacy Policy - Kaali Coder",
+    description: "Learn how Kaali Coder collects, uses, and protects your personal information. View our comprehensive Privacy Policy for details.",
+    keywords: ["privacy policy", "data protection", "user information", "Kaali Coder"],
 }
 
 const PrivacyPolicy = () => {
@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
             <div className="mt-16 prose md:prose-xl px-4 py-8 dark:prose-headings:text-neutral-200 dark:text-neutral-300 dark:prose-a:text-white">
                 <h1>Privacy Policy</h1>
                 <p>
-                    CodeFramer (&quot;we,&quot; &quot;our,&quot; &quot;us&quot;) values your privacy and is committed to
+                    Kaali Coder (&quot;we,&quot; &quot;our,&quot; &quot;us&quot;) values your privacy and is committed to
                     protecting your personal information. This Privacy Policy explains how
                     we collect, use, and disclose information when you use our website (
                     <a href={siteUrl} target="_blank" rel="noopener noreferrer">
@@ -127,9 +127,9 @@ const PrivacyPolicy = () => {
                     Services at your own risk.
                 </p>
 
-                <h2>6. Children&apos;s Privacy</h2>
+                <h2>6. Children's Privacy</h2>
                 <p>
-                    CodeFramer is not intended for use by individuals under the age of 13. We do not
+                    Kaali Coder is not intended for use by individuals under the age of 13. We do not
                     knowingly collect personal information from children under 13. If we become aware
                     of such information, we will take steps to delete it.
                 </p>
