@@ -5,8 +5,8 @@ import { auth } from '@/auth';
 import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
-    title: 'Admin | CodeFramer',
-    description: 'Admin panel for CodeFramer',
+    title: 'Admin | Kaali Coder',
+    description: 'Admin panel for Kaali Coder',
     robots: {
         index: false,
         follow: false
