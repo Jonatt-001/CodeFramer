@@ -39,7 +39,9 @@ const Contact = () => {
           onSubmit={handelSubmit} className='w-11/12 sm:w-[30rem] h-fit flex flex-col gap-5 sm:p-8 rounded-xl'>
           <div className='space-y-1'>
             <h1 className='text-4xl font-bold my-2'>Contact Us</h1>
-            <p className='dark:text-neutral-300 text-neutral-700'>Get in touch with the CodeFramer for inquiries.</p>
+            <p className='dark:text-neutral-300 text-neutral-700'>
+              Get in touch with Kaali Coder for inquiries.
+            </p>
           </div>
           <Input name="name" value={data.name} onChange={valHandler} placeholder='Fullname' className='border border-neutral-600 dark:border-neutral-400 px-6 h-12 text-md rounded-2xl bg-card' required />
           <Input name="email" value={data.email} onChange={valHandler} type='email' placeholder='Email' className='border border-neutral-600 dark:border-neutral-400 px-6 h-12 text-md rounded-2xl bg-card' required />
