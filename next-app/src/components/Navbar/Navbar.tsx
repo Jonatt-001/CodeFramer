@@ -46,8 +46,8 @@ export default function Navbar() {
   return (
     <div className="h-14 w-full flex border-b justify-between px-5 lg:px-0 lg:justify-around items-center fixed top-0 left-0 bg-[#ffffffad] dark:bg-[#000000a1] backdrop-blur-xl z-99">
       <Link href="/" className={cn(linkStyle, "text-md font-bold")}>
-        <Image src="/logo.webp" alt="codeframer logo" width={30} height={30} />
-        CodeFramer
+        <Image src="/logo.webp" alt="kaali coder logo" width={30} height={30} />
+        Kaali Coder
       </Link>
 
       <div className={`${active ? post : pre} rounded-xl drop-shadow-xl lg:drop-shadow-none p-6 lg:p-0 top-20 lg:top-0 right-5 lg:right-0 h-fit w-44 lg:h-auto lg:w-auto bg-card lg:bg-transparent border lg:border-none absolute lg:relative flex flex-col lg:flex-row gap-5 lg:items-center transition-all duration-200`}>
