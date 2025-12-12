@@ -59,6 +59,7 @@ export async function newSupportRequest(data: { name: string, email: string, mes
         if (!data.name || !data.email || !data.message) {
             throw new Error("All fields are required.");
         }
+
         await prisma.inquiries.create({
             data: {
                 name: data.name,
@@ -66,11 +67,13 @@ export async function newSupportRequest(data: { name: string, email: string, mes
                 message: data.message
             }
         });
+
         const resend = new Resend(process.env.RESEND_API_KEY);
+
         const { error } = await resend.emails.send({
-            from: 'CodeFramer <onboarding@resend.dev>',
+            from: 'Kaali Coder <support@resend.dev>',
             to: ['lakshaybabbar0118@gmail.com'],
-            subject: 'New support request from your codeframer',
+            subject: 'New support request via Kaali Coder',
             html: `Name: ${data.name}<br>Email: ${data.email}<br>Message: ${data.message}`,
         });
 
