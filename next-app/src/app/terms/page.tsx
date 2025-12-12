@@ -2,9 +2,9 @@ import Footer from "@/components/Footer/Footer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Terms of Service - CodeFramer",
-    description: "Read the Terms of Service for CodeFramer to understand the rules and conditions for using our platform.",
-    keywords: ["terms of service", "CodeFramer", "terms", "service", "agreement"],
+    title: "Terms of Service - Kaali Coder",
+    description: "Read the Terms of Service for Kaali Coder to understand the rules and conditions for using our platform.",
+    keywords: ["terms of service", "Kaali Coder", "terms", "service", "agreement"],
 }
 
 const TermsOfService = () => {
@@ -18,7 +18,7 @@ const TermsOfService = () => {
                 <p><strong>Effective Date:</strong> 09/01/2025</p>
 
                 <p>
-                    Welcome to CodeFramer! By using our website (
+                    Welcome to Kaali Coder! By using our website (
                     <a
                         href={siteUrl}
                         target="_blank"
@@ -45,7 +45,7 @@ const TermsOfService = () => {
 
                 <h2>3. Use of the Services</h2>
                 <ul>
-                    <li>You must be at least 13 years old to use CodeFramer.</li>
+                    <li>You must be at least 13 years old to use Kaali Coder.</li>
                     <li>
                         You are responsible for maintaining the confidentiality of your
                         account and password.
@@ -60,13 +60,13 @@ const TermsOfService = () => {
                 <h2>4. Intellectual Property</h2>
                 <p>
                     All content, trademarks, and intellectual property on the platform are
-                    owned by CodeFramer or its licensors. You may not use, reproduce, or
+                    owned by Kaali Coder or its licensors. You may not use, reproduce, or
                     distribute them without permission.
                 </p>
 
                 <h2>5. User Content</h2>
                 <p>
-                    You retain ownership of any content you create or upload to CodeFramer.
+                    You retain ownership of any content you create or upload to Kaali Coder.
                     However, by uploading, you grant us a license to store, display, and
                     process the content as needed to provide our Services.
                 </p>
@@ -79,10 +79,11 @@ const TermsOfService = () => {
 
                 <h2>7. Limitation of Liability</h2>
                 <p>
-                    CodeFramer is provided &quot;as is&quot; without warranties of any kind. We are
+                    Kaali Coder is provided &quot;as is&quot; without warranties of any kind. We are
                     not responsible for any damages or losses resulting from your use of the
                     platform.
                 </p>
+
                 <h2>8. Contact Us</h2>
                 <p>
                     If you have any questions about these Terms of Service, please contact
