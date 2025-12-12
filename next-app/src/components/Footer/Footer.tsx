@@ -33,17 +33,17 @@ const Footer = () => {
         <div className="flex items-center justify-center gap-2 w-fit h-fit">
           <Image
             src="/logo.webp"
-            alt="CodeFramer Logo"
+            alt="Kaali Coder Logo"
             width={50}
             height={50}
           />
           <span className="text-2xl md:text-3xl font-semibold">
-            CodeFramer
+            Kaali Coder
           </span>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-12 xl:gap-20">
           <div className="flex flex-col gap-2">
-            <p className="text-xl font-bold">CodeFramer</p>
+            <p className="text-xl font-bold">Kaali Coder</p>
             {Links.Codeframer.map((link) => {
               return (
                 <Link key={link.name} href={link.href} className={linkStyle}>
@@ -77,7 +77,7 @@ const Footer = () => {
       <hr className="w-full" />
       <div>
         <p className="text-sm sm:text-base">
-          © 2025 CodeFramer. All rights reserved.
+          © 2025 Kaali Coder. All rights reserved.
         </p>
       </div>
     </footer>
