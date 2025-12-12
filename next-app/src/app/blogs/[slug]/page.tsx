@@ -28,7 +28,7 @@ export async function generateMetadata({
             title: data?.title,
             description: data?.description,
             url: process.env.BASE_URL + "/blogs/" + slug,
-            siteName: "CodeFramer",
+            siteName: "Kaali Coder",
             images: [
                 {
                     url: data?.thumbnail,
@@ -47,7 +47,6 @@ export async function generateMetadata({
         },
     };
 }
-
 
 export default async function Blog({
     params,
@@ -81,7 +80,7 @@ export default async function Blog({
         },
         publisher: {
             "@type": "Organization",
-            name: "CodeFramer",
+            name: "Kaali Coder",
             logo: {
                 "@type": "ImageObject",
                 url: '/logo.webp',
