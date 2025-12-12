@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 export const metadata: Metadata = {
-  title: "CodeFramer Sign-In: Access Your Online IDE & Project Dashboard",
-  description: "Sign in to CodeFramer and access your personalized online IDE, project dashboard, and coding environments. Manage your projects, collaborate, and start coding right away.",
-  keywords: "CodeFramer, sign in, online IDE, project dashboard, coding environments, code collaboration",
+  title: "Kaali Coder Sign-In: Access Your Online IDE & Project Dashboard",
+  description: "Sign in to Kaali Coder to access your cloud IDE, project dashboard, coding workspace, and collaboration tools. Start building instantly from your browser.",
+  keywords: "Kaali Coder, sign in, online IDE, project dashboard, coding environment, cloud editor, code collaboration",
 }
 
 export default function SignIn() {
@@ -41,12 +41,14 @@ export default function SignIn() {
         <BackgroundGradientAnimation interactive={false}>
           <div className="absolute z-50 inset-0 flex flex-col items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
             <p className="bg-clip-text text-transparent drop-shadow-2xl bg-linear-to-b from-white/80 to-white/20 font-bold px-4 pointer-events-none text-3xl text-center md:text-6xl lg:text-7xl">
-              CodeFramer
+              Kaali Coder
             </p>
-            <p className="text-xl mt-2 bg-clip-text font-semibold text-transparent drop-shadow-2xl bg-linear-to-b from-white/80 to-white/20">Write Code Anywhere, Anytime.</p>
+            <p className="text-xl mt-2 bg-clip-text font-semibold text-transparent drop-shadow-2xl bg-linear-to-b from-white/80 to-white/20">
+              Write Code Anywhere, Anytime.
+            </p>
           </div>
         </BackgroundGradientAnimation>
       </div>
     </main>
   </>
-} 
+}
